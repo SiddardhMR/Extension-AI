@@ -1,30 +1,37 @@
-# Boredom buster ai
+# Boredom Buster AI - React Version
 
-*Automatically synced with your [v0.dev](https://v0.dev) deployments*
+A fun, interactive web app with 5 AI-powered activities to cure your boredom!
 
-[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/siddardhmrs-projects/v0-boredom-buster-ai)
-[![Built with v0](https://img.shields.io/badge/Built%20with-v0.dev-black?style=for-the-badge)](https://v0.dev/chat/projects/GVxT0bey01x)
+## Features
 
-## Overview
+- **AI Doodle Duel**: Draw against AI and see who wins
+- **Roast or Toast**: Get roasted or toasted by AI in different styles
+- **Haiku Generator**: Create beautiful poetry from any theme
+- **Random Roleplay Game**: 3-turn adventure stories with AI narration
+- **Zero-Commitment Creativity**: 60-second creative challenges
 
-This repository will stay in sync with your deployed chats on [v0.dev](https://v0.dev).
-Any changes you make to your deployed app will be automatically pushed to this repository from [v0.dev](https://v0.dev).
+## Setup
 
-## Deployment
+1. Clone the repository
+2. Install dependencies: `npm install`
+3. Create a `.env` file and add your DeepSeek API key:
+   \`\`\`
+   REACT_APP_DEEPSEEK_API_KEY=your_api_key_here
+   \`\`\`
+4. Start the development server: `npm start`
 
-Your project is live at:
+## Technologies Used
 
-**[https://vercel.com/siddardhmrs-projects/v0-boredom-buster-ai](https://vercel.com/siddardhmrs-projects/v0-boredom-buster-ai)**
+- React 18
+- Tailwind CSS
+- Radix UI components
+- Lucide React icons
+- DeepSeek AI API
 
-## Build your app
+## Getting Started
 
-Continue building your app on:
+1. Get your DeepSeek API key from [DeepSeek](https://platform.deepseek.com/)
+2. Add it to your environment variables
+3. Run the app and start having fun!
 
-**[https://v0.dev/chat/projects/GVxT0bey01x](https://v0.dev/chat/projects/GVxT0bey01x)**
-
-## How It Works
-
-1. Create and modify your project using [v0.dev](https://v0.dev)
-2. Deploy your chats from the v0 interface
-3. Changes are automatically pushed to this repository
-4. Vercel deploys the latest version from this repository
+Each activity is designed to be quick (under 2 minutes) and entertaining. Perfect for those moments when you need a creative spark or just want to have some fun with AI!
